@@ -3,6 +3,52 @@
 
 ## Homework01
 
+### 題目說明 :
+
+> CO2012 – 資料結構 (Data Structure)
+
+> Homework 1
+
+> Assigned: April 8 2020
+
+> Due: April 22, 2020
+
+Developing a program to construct a fast search for finding out the
+overlapped routes of two persons.
+
+1. Export daily route from google map to a KML document, say Route.kml.
+Parse the Route.kml for extracting all coordinates of your route. An
+example KML document is:
+```
+  <?xml version="1.0" encoding="UTF-8"?>
+  <kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <Placemark>
+   <name>New York City</name>
+   <description>New York City</description>
+   <Point>
+   <coordinates>-74.006393,40.714172,0</coordinates>
+   </Point>
+  </Placemark>
+  </Document>
+  </kml>
+```
+2. In this question, assume the input file Route.kml stores a number of N coordinates.
+You have to extract all coordinates of your route.
+3. Get Route.kml(s) from your friend(s).
+4. Determine whether your routes and your friend’s routes are overlapping or not.
+The overlapping of two coordinates is defined as the distance between them is less than D meters, which is a system parameter youcan determine.
+5. Developing a function to search the overlapping coordinates and returnthe answer.
+
+> NOTE: As a real example, let's take a relatively larger file that you wish to test.
+The number of coordinates per KML file should be larger than 50 coordinates.
+
+#### 繳交內容：
+
+1. 自己的 Route.kml 以及結果所採用的朋友的 Route.kml
+2. 自行設計之 function 程式碼 (程式語言限用 C 或 C++，環境限 Linux)
+3. README (說明 function 如何使用)
+
 ### 壓縮檔案檔案說明
 Route.kml      ：為我的kml
 FriendRoute.kml：為朋友的kml
@@ -38,6 +84,15 @@ function中的main，複雜度應該是O(m*n)，其中m,n皆分別表不同檔�
 備註：若有此README敘述不清之處，請參考程式碼中的註解。
 
 ## Homework02
+
+### 題目說明 :	
+
+> 題目：請使用一維鏈結串列模擬二元搜尋樹，所需功能包含
+
+- 搜尋
+- 中序拜訪
+  - 大到小
+  - 小到大
 
 ### 程式使用方式：
 case 1
