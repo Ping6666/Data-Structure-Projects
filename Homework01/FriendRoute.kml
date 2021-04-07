@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Directions from No. 80, Zhongyang Road, Zhongli District, Taoyuan City, Taiwan 320 to No. 300, Zhongda Road, Zhongli District, Taoyuan City, Taiwan 320</name>
+      <Placemark>
+        <name>Directions from No. 80, Zhongyang Road, Zhongli District, Taoyuan City, Taiwan 320 to No. 300, Zhongda Road, Zhongli District, Taoyuan City, Taiwan 320</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.19035,24.96213,0
+            121.19045,24.96256,0
+            121.19055,24.96298,0
+            121.19061,24.96322,0
+            121.19068,24.96353,0
+            121.19068,24.96363,0
+            121.19068,24.96372,0
+            121.19065,24.9639,0
+            121.19063,24.96398,0
+            121.19062,24.96404,0
+            121.19062,24.96412,0
+            121.19062,24.9642,0
+            121.19063,24.96424,0
+            121.19064,24.96431,0
+            121.19076,24.96456,0
+            121.19091,24.96489,0
+            121.19097,24.96512,0
+            121.19104,24.96541,0
+            121.19106,24.96549,0
+            121.1912,24.96549,0
+            121.1912,24.96553,0
+            121.19121,24.96554,0
+            121.19121,24.96555,0
+            121.19122,24.96555,0
+            121.19123,24.96556,0
+            121.19124,24.96556,0
+            121.19125,24.96556,0
+            121.19129,24.96556,0
+            121.19169,24.96557,0
+            121.19208,24.96557,0
+            121.19208,24.96592,0
+            121.19261,24.96589,0
+            121.19261,24.9659,0
+            121.19261,24.96591,0
+            121.19262,24.96591,0
+            121.19262,24.96592,0
+            121.19263,24.96592,0
+            121.19263,24.96593,0
+            121.19264,24.96593,0
+            121.19265,24.96593,0
+            121.19267,24.96675,0
+            121.19322,24.96675,0
+            121.19362,24.96674,0
+            121.194,24.96676,0
+            121.19455,24.96675,0
+            121.19539,24.96674,0
+            121.19544,24.96674,0
+            121.19547,24.96676,0
+            121.1955,24.96679,0
+            121.19552,24.96685,0
+            121.19551,24.96696,0
+            121.19546,24.96775,0
+            121.19545,24.96785,0
+            121.19486,24.96788,0
+            121.19487,24.96827,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No. 80, Zhongyang Road, Zhongli District, Taoyuan City, Taiwan 320</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.1903536,24.9621327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zhongda Observatory, Zhongli District, Taoyuan City, Taiwan 320</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.1954556,24.9677538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No. 300, Zhongda Road, Zhongli District, Taoyuan City, Taiwan 320</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            121.1948672,24.9682708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
