@@ -20,7 +20,7 @@ FriendRoute.kml：為朋友的kml
 
 ### function中的Distance說明
 以輸入的經緯度*2換算成距離差並以meter為單位。
-備註：此段程式碼參考"https://stackoverflow.com/questions/639695/how-to-convert-latitude-or-longitude-to-meters"，且他參考"https://en.wikipedia.org/wiki/Haversine_formula"中的公式。
+備註：此段程式碼參考 "https://stackoverflow.com/questions/639695/how-to-convert-latitude-or-longitude-to-meters" ，且他參考 "https://en.wikipedia.org/wiki/Haversine_formula" 中的公式。
 
 ### function複雜度
 function中的buildcoordinates，複雜度應該是O(n)，n為檔案大小。
@@ -30,7 +30,7 @@ function中的main，複雜度應該是O(m*n)，其中m,n皆分別表不同檔�
 
 ### function結果與實用度說明
 我嘗試過此function，其中80.755輸出為False, No overlapping.；而80.76輸出為True, Overlapping.。
-而透過"http://kmlviewer.nsspot.net/"或是Google Map的功能檢查，最近距離大約為98.5(公尺)，因此這表示我使用的reference低估了距離，不過我覺得低估總比高估還好，我認為其中的誤差應該來自於，radius(地球半徑)的經度不夠，且經由一次一次的數學運算將誤差擴大，而我認為還存在一個問題內建函式stod(string to double)轉換過程產生極大的誤差，所以計算出的結果才有誤差。
+而透過 "http://kmlviewer.nsspot.net/" 或是Google Map的功能檢查，最近距離大約為98.5(公尺)，因此這表示我使用的reference低估了距離，不過我覺得低估總比高估還好，我認為其中的誤差應該來自於，radius(地球半徑)的經度不夠，且經由一次一次的數學運算將誤差擴大，而我認為還存在一個問題內建函式stod(string to double)轉換過程產生極大的誤差，所以計算出的結果才有誤差。
 
 ### 程式編輯說明
 我沒有使用using namespace std;是因為非常容易使用到其中的保留字，所以我的習慣是不要使用using namespace std;，而使用"std::"在需要的地方。
@@ -41,13 +41,13 @@ function中的main，複雜度應該是O(m*n)，其中m,n皆分別表不同檔�
 
 ### 程式使用方式：
 case 1
-可以一次輸入多筆數字(正數、負數皆可)以空白做間格，並以0為結束，可以重複進入此階段，不過輸入重複數字會跳過，不加入二元樹。
+可以一次輸入多筆數字(正數、負數皆可)以空白做間格，並以0為結束，可以重複進入此階段，不過輸入重複數字會跳過，不加入二元樹。 \
 case 2
-若此數存在的話會輸出其在二元樹中的index，不存在則輸出沒找到。
+若此數存在的話會輸出其在二元樹中的index，不存在則輸出沒找到。 \
 case 3
-輸出兩行，第一行為小到大第二行為大到小。
+輸出兩行，第一行為小到大第二行為大到小。 \
 case 4
-表依照list順序輸出內容。
+表依照list順序輸出內容。 \
 case 0
 則結束程式。
 
